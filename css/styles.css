@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.friends {
+  color: red;
+  font-weight: bold;
+}
+
+h2  {
+  background-color: #ffc266;
+  color: #e68a00;
+}
+
+.contacts p:first-child {
+  color: blue;
+  font-weight: bold;
+}
+
+.contacts p:last-child {
+  color: green;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid blue;
+}
+
+.contacts {
+  float: left;
+  padding: 30px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.footer {
+  text-align: right;
+  float: right;
+}
+
+.online {
+  width: 100px;
+  height: auto;
+  border: none;
+}
